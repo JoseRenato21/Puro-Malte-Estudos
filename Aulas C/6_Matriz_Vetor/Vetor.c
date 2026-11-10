@@ -6,7 +6,7 @@
 
 
 */
-int main(){
+int exemplo_1(void){
 // Vetores e strings
     char nome[50];
     printf("Qual seu nome? ");
@@ -31,7 +31,7 @@ int main(){
     return 0;
 }
 //-------------------------------------------------------
-int main(){
+int exemplo_2(void){
     //Vetores inteiros
     int numeros[5]; // 0 ... 4
     numeros[0] = 1;
@@ -50,5 +50,14 @@ int main(){
         }
     
             
+    return 0;
+}
+
+/* Executa os exemplos acima, na ordem em que aparecem no arquivo. */
+int main(void) {
+    exemplo_1();
+    printf("\n-----\n");
+    exemplo_2();
+    printf("\n-----\n");
     return 0;
 }

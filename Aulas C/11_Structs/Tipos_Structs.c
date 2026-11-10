@@ -21,7 +21,7 @@ struct st_aluno{      // struct nome{...};
 
 
 
-int min(){
+int main(){
 
     struct st_aluno aluno1;
 

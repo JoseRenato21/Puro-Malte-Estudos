@@ -2,7 +2,7 @@
 
 
 
-int main(){
+int exemplo_1(void){
     /*                 0   1   2   3   4
                      |   |   |   |   |  |
     int = 4 bytes
@@ -43,7 +43,7 @@ Valores[0] vale 1 e o endereço de memoria é -1871202144
 
 
 
-int main(){
+int exemplo_2(void){
     /*                 0   1   2   3   4
                      |   |   |   |   |  |
     int = 4 bytes
@@ -86,3 +86,12 @@ Valores[0] vale 1 e o endereço de memoria é -417822176
 *(valores+3) vale 4 e o endereço de memoria é 0x4
 
 */
+
+/* Executa os exemplos acima, na ordem em que aparecem no arquivo. */
+int main(void) {
+    exemplo_1();
+    printf("\n-----\n");
+    exemplo_2();
+    printf("\n-----\n");
+    return 0;
+}

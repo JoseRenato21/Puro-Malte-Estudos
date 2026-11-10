@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-int main(){
+int exemplo_1(void){
     int A[6], var;
         var = 0;
 
@@ -22,7 +22,7 @@ int main(){
 // ---------------------------------------
 // em 2) Programa que lê quantos valores pares um vetor x possui.
   #include <stdio.h>
-    int main(){
+    int exemplo_2(void){
         int a = 1, x;
         printf("Escolha um número para criar um vetor numérico crescente correspoondente com o valor citado.\n");
         scanf("%d", &x);
@@ -36,3 +36,12 @@ int main(){
         }
         return 0;
     }
+
+/* Executa os exemplos acima, na ordem em que aparecem no arquivo. */
+int main(void) {
+    exemplo_1();
+    printf("\n-----\n");
+    exemplo_2();
+    printf("\n-----\n");
+    return 0;
+}

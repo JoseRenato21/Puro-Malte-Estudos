@@ -17,7 +17,7 @@ __Array multidimensional(MATRIZ): int numeros[5][5] [linhas]x[colunas]
                          [0][1][2][3][4]-4
 */
 
-int main(){
+int exemplo_1(void){
 // Vetores e strings
     char nome[3][50];
     for(int i = 0; i < 3; i++){
@@ -30,7 +30,7 @@ int main(){
     return 0;
 }
 //-------------------------------------------------------
-int main(){                 // para escrever os numeros 1,2,3,4.
+int exemplo_2(void){                 // para escrever os numeros 1,2,3,4.
    int numeros[2][2];
    numeros[0][0] = 1;
    numeros[0][1] = 2;
@@ -43,5 +43,14 @@ int main(){                 // para escrever os numeros 1,2,3,4.
     }
    }
             
+    return 0;
+}
+
+/* Executa os exemplos acima, na ordem em que aparecem no arquivo. */
+int main(void) {
+    exemplo_1();
+    printf("\n-----\n");
+    exemplo_2();
+    printf("\n-----\n");
     return 0;
 }
